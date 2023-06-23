@@ -1,0 +1,155 @@
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:hover{
+    color:blue;
+}
+
+.site{
+    height: 100vh;
+}
+
+.bunner{
+    height: 80%;
+    background-image: url(h1_hero1.png.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.menu .leftMenu{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.menu .leftMenu div{
+    display: inline-block;
+}
+
+.menu .leftMenu div:hover{
+    transform: scale(1.3);   
+}
+
+img{
+    vertical-align: middle;
+}
+
+.menu .rigthMenu{
+    margin-top: 30px;
+    flex: content;
+    display: flex;
+    justify-content: flex-end; 
+}
+.menu .rigthMenu .telNumber{
+    color: white;
+}
+
+.btn{
+    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+    padding: 15px 36px; 
+    border-radius: 30px;
+    color: white;  
+}
+
+.advertisement, .container .card{
+    padding-top: 50px;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+} 
+
+.advertisement .col1{
+    width: 40%;
+}
+
+.advertisement .col1 span{
+    text-align: center;
+    background: #fff;
+    padding: 5px 18px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,68,149,0.2);
+    margin-right: 30px;
+}
+
+.advertisement .col1 h1{
+    color: #192839;
+    font-family: "Nunito",sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 11px;
+}
+
+.advertisement .col1 p{
+    color: #192839;
+    margin-bottom: 48px;
+    padding-right: 0;
+    font-size: 20px;
+}
+
+.container .row{
+    display: flex;
+}
+
+.container .caption{
+    text-align: center;
+    justify-content: center;
+}
+
+.container .row .title{
+    width: 45%;
+}
+
+.container .caption .title .caption1{
+    color: #FF4495;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.container .caption .title .caption2{
+    font-family: "Nunito",sans-serif;
+    font-size: 50px;
+    font-weight: 700; 
+    line-height: 1.4;
+}
+
+.container .card .cardCol{
+    flex: 0 0 auto;
+    width: 25%;
+    margin-right: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 25px 35px rgba(68,162,255,0.1);
+}
+
+.container .card .infoCard{
+    background: white;
+    padding: 20px 20px;
+}
+
+.container .card h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .card p{
+    color: #192839;
+    font-size: 18px;
+}
