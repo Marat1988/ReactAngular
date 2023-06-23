@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-нолики</title>
+    <link rel="stylesheet" href="styce.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Настройки игры:</legend>
+            <div class="modeBot">
+
+                <input type="radio" id="stupidBot" name="chooseBot" value="stupidBot" checked/>
+                <label for="stupidBot">Тупой бот</label>
+
+                <input type="radio" id="advancedBot" name="chooseBot" value="advancedBot" />
+                <label for="advancedBot">Продвинутый бот</label>
+            </div>
+
+            <div class="modeSymbol">
+                <input type="radio" id="chooseCross" name="userChooseCrossZero" value="chooseCross" checked/>
+                <label for="chooseCross">Крестик</label>
+          
+                <input type="radio" id="chooseZero" name="userChooseCrossZero" value="chooseZero" />
+                <label for="chooseZero">Нолик</label>
+            </div>
+            <div class="chooseMode">
+                <button id="buttonStartGame" type="submit">Начать игру</button>
+           </div>
+        </fieldset>
+    </form>
+     <div class="game">
+        <div class="play">
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+            <div class="col"><button></button></div>
+        </div>
+        <div class="log"></div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

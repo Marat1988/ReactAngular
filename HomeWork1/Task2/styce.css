@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+form{
+    width: 30%;
+}
+
+form fieldset div{
+    padding-bottom: 10px;
+}
+
+#buttonStartGame{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#buttonStartGame:hover,
+#buttonStartGame:focus {
+  color: blue;
+}
+
+.game{
+    display: none;
+}
+
+.play, .log{
+    width: 33.33%;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.log{
+    margin-top: 40px;
+    box-shadow: -6px -11px 5px -3px rgba(22, 29, 34, 0.48);
+}
+
+.play {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.play > div{
+    width: 33.33%;
+    height: 100px;
+}
+
+.play button {
+    width: 100%;
+    height: 100%;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.play .win{
+    color:red;
+}
+
+button:disabled{
+    background-color:yellow;
+    color: blue;
+}
